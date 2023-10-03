@@ -42,21 +42,21 @@ function App() {
               CELERATE
             </motion.div>
             <motion.div
-              animate={{ x: 30, y: 140 }}
+              animate={{ x: 30, y: 160 }}
               transition={{ duration: 2 }}
               className="tech-text"
             >
               Technologies
             </motion.div>
             <motion.div
-              animate={{ x: 30, y: 180 }}
+              animate={{ x: 30, y: 215 }}
               transition={{ duration: 2 }}
               className="large-text"
             >
               Transferring ideas into innovation
             </motion.div>
             <motion.div
-              animate={{ x: 30, y: 215 }}
+              animate={{ x: 30, y: 260 }}
               transition={{ duration: 2 }}
             >
               <button className="btn x-button">Get Started</button>

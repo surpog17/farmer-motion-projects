@@ -13,9 +13,9 @@
 }
 .circle2 {
   position: absolute;
-  width: 200px; /* Set the diameter of the circles */
-  height: 200px; /* Set the diameter of the circles */
-  border-radius: 50%; /* Make it a circle */
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
   border: 12px solid white;
 }
 
@@ -25,14 +25,14 @@
 }
 
 .circle1:nth-child(2) {
-  top: 0px; /* Adjust the position to achieve the crossing effect */
-  left: 2%; /* Position the second circle horizontally */
+  top: 0px; 
+  left: 2%; 
 }
 .main-container {
   display: flex;
   align-items: center;
-  height: 69vh;
-  width: 140vh;
+  height: 60vh;
+  width: 90vh;
   justify-content: center;
 }
 
@@ -44,8 +44,10 @@
     top: 10%;
     left: 250px;
     color: white;
-    font-size: 60px;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 85px;
+    font-family: 'Julius Sans One', sans-serif;
+
+    letter-spacing:28px
 
 }
   .x-text {
@@ -54,8 +56,9 @@
     left: 135px;
     color: white;
     font-size: 100px;
-    font-weight: 900;
-    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-family: 'Gabarito', cursive;
+
 
 }
   .tech-text {
@@ -63,12 +66,14 @@
     top: 17%;
     left: 245px;
     color: white;
-    font-size: 24px;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-family: 'Kanit', sans-serif;
     border-bottom: 7px solid;
-    width: 260px;
+    width: 625px;
     text-align: initial;
     border-radius: 4px;
+    letter-spacing:10px
+
 
 }
   .large-text {
@@ -76,9 +81,10 @@
     top: 16%;
     left: 245px;
     color: white;
-    font-size: 24px;
+    font-size: 36px;
    width: max-content;
-    font-family: 'Ubuntu', sans-serif;
+   font-family: 'Jura', sans-serif;
+
 }
 
 
