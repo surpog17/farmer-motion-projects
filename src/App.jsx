@@ -10,6 +10,8 @@ function App() {
         <div className="centered-content">
           <div className="circle-container">
             <motion.div
+              whileHover={{ scale: 1.2, rotate: -360 }}
+              whileTap={{ scale: 0.8, rotate: -360 }}
               animate={{ x: 30 }}
               transition={{ duration: 2 }}
               className="circle2"
@@ -18,6 +20,8 @@ function App() {
               animate={{ x: 4 }}
               transition={{ duration: 2 }}
               className="circle1"
+              whileHover={{ scale: 1.2, rotate: 360 }}
+              whileTap={{ scale: 0.8, rotate: 360 }}
             ></motion.div>
           </div>
           <div className="circle-container">
@@ -50,6 +54,12 @@ function App() {
               className="large-text"
             >
               Transferring ideas into innovation
+            </motion.div>
+            <motion.div
+              animate={{ x: 30, y: 215 }}
+              transition={{ duration: 2 }}
+            >
+              <button className="btn x-button">Get Started</button>
             </motion.div>
           </div>
         </div>
