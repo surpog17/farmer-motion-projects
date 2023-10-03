@@ -1,0 +1,82 @@
+
+.circle-container {
+  position: relative;
+ 
+}
+
+.circle1 {
+  position: absolute;
+  width: 200px; /* Set the diameter of the circles */
+  height: 200px; /* Set the diameter of the circles */
+  border-radius: 50%; /* Make it a circle */
+  border: 3px solid white;
+}
+.circle2 {
+  position: absolute;
+  width: 200px; /* Set the diameter of the circles */
+  height: 200px; /* Set the diameter of the circles */
+  border-radius: 50%; /* Make it a circle */
+  border: 12px solid white;
+}
+
+.circle2:nth-child(1) {
+  top: 0%;
+  left: 0px;
+}
+
+.circle1:nth-child(2) {
+  top: 0px; /* Adjust the position to achieve the crossing effect */
+  left: 2%; /* Position the second circle horizontally */
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  height: 69vh;
+  width: 140vh;
+  justify-content: center;
+}
+
+.centered-content {
+  text-align: center;
+}
+  .main-text {
+    position: absolute;
+    top: 10%;
+    left: 250px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+  .x-text {
+    position: absolute;
+    top: 0%;
+    left: 135px;
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+  .tech-text {
+    position: absolute;
+    top: 17%;
+    left: 245px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 7px solid;
+    width: 260px;
+    text-align: initial;
+    border-radius: 4px;
+
+}
+  .large-text {
+    position: absolute;
+    top: 16%;
+    left: 245px;
+    color: white;
+    font-size: 24px;
+   width: max-content;
+    font-family: 'Ubuntu', sans-serif;
+}
